@@ -18,16 +18,27 @@ This tutorial outlines the usage of Active Directory to create users and securit
 - Windows 10 (21H2)
 
 
-![image](https://github.com/ScotBlair/configure-ad/assets/171102023/e2a4d5ca-4778-407b-a9ae-9f57655c127b)
-
 <h2>Deployment and Configuration Steps</h2>
 
 - Step 1
+From the Server Manager dashboard, click the "Tools" dropdown in the top right.  Select "Active Directory Users and Computers."  If Server Manager is not open, you can access it through the Start menu instead.  Go to Start -> Windows Administrative Tools -> Active Directory Users and Computers.
+![image](https://github.com/ScotBlair/configure-ad/assets/171102023/e2a4d5ca-4778-407b-a9ae-9f57655c127b)
 
-- 
+
 - Step 2
+From inside Active Directory Users and Computers, right-click on the name of your domain in the left panel (I chose MyDomain.org) and select New -> Organizational Unit.  Enter a name for the folder(s) to be created.  I created 3 folders: _ACCOUNTANTS, _IT SECURITY, and _PROGRAMMERS.
+
+
 - Step 3
+For each folder, I created some users:  Dave and Steve are _ACCOUNTANTS, Bob, Mark, and Rebecca (aka Becky) are part of _IT SECURITY, and Rachael, Tasha, and Xavier are _PROGRAMMERS.  In the left panel, right-click the folder you want to create a new user in, select New -> User.  Fill out the info in the pop-up screen.
+![Active Directory 2](https://github.com/ScotBlair/configure-ad/assets/171102023/984c27eb-6ef9-40cc-9e21-107b5bda5f58)
+
+
 - Step 4
+Now we need to create a Security Group for each Organizational Unit we created so we can assign each user a membership role.  In the panel to the left, right-click the folder at the bottom named "Users", then select New -> Group.  Name your group.  In the panel on the right, the name of your new security group will appear.  Right click it and select "Properties."  Select the "Members" tab, then select "Add."  Under "Enter the object names to select," enter the name of the users you want to be part of this group.
+![Members Group](https://github.com/ScotBlair/configure-ad/assets/171102023/c0476138-1b22-4a5e-8bc0-60cbce0a7efa)
+
+- Step 5
 
 
 <p>
