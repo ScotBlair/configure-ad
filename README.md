@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the usage of Active Directory to create users and security groups, and assign permissions within a Virtual Machine.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -11,26 +11,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+
+![image](https://github.com/ScotBlair/configure-ad/assets/171102023/e2a4d5ca-4778-407b-a9ae-9f57655c127b)
+
+<h2>Deployment and Configuration Steps</h2>
 
 - Step 1
+
+- 
 - Step 2
 - Step 3
 - Step 4
 
-<h2>Deployment and Configuration Steps</h2>
 
 <p>
-![image](https://github.com/ScotBlair/configure-ad/assets/171102023/8bef878a-b760-4ffd-b878-d287f2c4a9ff)
-
-
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
