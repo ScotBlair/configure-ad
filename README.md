@@ -28,7 +28,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-![Server Manager](https://github.com/ScotBlair/configure-ad/assets/171102023/7ca18a87-f0e9-4415-8e69-b0fc91fb2d2c)
+![image](https://github.com/ScotBlair/configure-ad/assets/171102023/8bef878a-b760-4ffd-b878-d287f2c4a9ff)
+
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
