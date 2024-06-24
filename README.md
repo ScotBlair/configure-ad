@@ -31,7 +31,7 @@ From inside Active Directory Users and Computers, right-click on the name of you
 
 
 - Step 3<br />
-For each folder, I created some users:  Dave and Steve are _ACCOUNTANTS, Bob, Mark, and Rebecca (aka Becky) are part of _IT SECURITY, and Rachael, Tasha, and Xavier are _PROGRAMMERS.  In the left panel, right-click the folder you want to create a new user in, select New -> User.  Fill out the info in the pop-up screen.
+For each folder, I created some users:  Dave and Steve are _ACCOUNTANTS.  Bob, Mark, and Rebecca (aka Becky) are part of _IT SECURITY.  And Rachael, Tasha, and Xavier are _PROGRAMMERS.  In the left panel, right-click the folder you want to create a new user in, select New -> User.  Fill out the info in the pop-up screen.
 
 ![Active Directory 2](https://github.com/ScotBlair/configure-ad/assets/171102023/984c27eb-6ef9-40cc-9e21-107b5bda5f58)
 
